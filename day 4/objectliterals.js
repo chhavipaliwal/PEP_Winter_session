@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //object literals
 //object literakls is a list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}).
 {
@@ -27,7 +26,7 @@ addressMaker("Austin", "Texas");
   let { name, age } = student;
   console.log(name, age);
 }
-=======
+
 //object literals
 //object literakls is a list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}).
 {
@@ -66,4 +65,3 @@ addressMaker("Austin", "Texas");
   let { name, age } = student;
   console.log(name, age);
 }
->>>>>>> master

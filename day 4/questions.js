@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Debounce Function: Implement a debounce function that limits the frequency of a function's execution when
 //  called repeatedly within a specified time frame. This is useful in scenarios like resizing or scrolling events.
 function debounce(func, delay) {
@@ -66,7 +65,7 @@ function isValid(s) {
 console.log(isValid("()"));
 console.log(isValid("()[]{}"));
 console.log(isValid("(]"));
-=======
+
 // Debounce Function: Implement a debounce function that limits the frequency of a function's execution when
 //  called repeatedly within a specified time frame. This is useful in scenarios like resizing or scrolling events.
 function debounce(func, delay) {
@@ -78,10 +77,10 @@ function debounce(func, delay) {
     }, delay);
   };
 }
-const log = debounce(() => console.log("Hello"), 1000);
-log();
-log();
-log();
+const logs = debounce(() => console.log("Hello"), 1000);
+logs();
+logs();
+logs();
 //Longest Substring Without Repeating Characters: Find the length of the longest substring without repeating characters.
 function lengthOfLongestSubstring(s) {
   let max = 0;
@@ -134,4 +133,3 @@ function isValid(s) {
 console.log(isValid("()"));
 console.log(isValid("()[]{}"));
 console.log(isValid("(]"));
->>>>>>> master
