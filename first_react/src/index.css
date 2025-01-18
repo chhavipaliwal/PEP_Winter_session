@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "MuseoSlabRegular";
+  src: url("/fonts/Museo_Slab_500.otf");
+}
+@font-face {
+  font-family: "Rockness";
+  src: url("/font/Rockness.otf");
+}
