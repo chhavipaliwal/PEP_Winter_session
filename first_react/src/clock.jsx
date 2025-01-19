@@ -11,6 +11,7 @@ function Clock() {
   return (
     <div className="flex flex-col items-center justify-center h-screen font-sans text-3xl bg-[#282c34] text-white">
       <p>{time.toLocaleTimeString()}</p>
+    
     </div>
   );
 }
