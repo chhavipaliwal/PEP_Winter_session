@@ -13,6 +13,8 @@ import Form from "./formhandling";
 import EventBinding from "./eventbinding";
 import Synthetic from "./synthetic";
 import Delegation from "./delegation";
+import Mouse from "./mouse";
+import Keyboard from "./keyboardevent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,7 +34,19 @@ function App() {
       {/* <Form /> */}
       {/* <EventBinding /> */}
       {/* <Synthetic /> */}
-      <Delegation />
+      {/* <Delegation /> */}
+      {/* <Mouse
+        render={(x, y) => {
+          return (
+            <div>
+              <h1>Mouse Position</h1>
+              <p>X: {x}</p>
+              <p>Y: {y}</p>
+            </div>
+          );
+        }}
+      /> */}
+      <Keyboard />
     </>
   );
 }
