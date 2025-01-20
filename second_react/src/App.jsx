@@ -10,6 +10,9 @@ import Apps from "./nestedprop";
 import StatusMessage from "./conditionalprop";
 import Click from "./handlingclick";
 import Form from "./formhandling";
+import EventBinding from "./eventbinding";
+import Synthetic from "./synthetic";
+import Delegation from "./delegation";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,7 +29,10 @@ function App() {
       {/* <Apps /> */}
       {/* <StatusMessage status={status} /> */}
       {/* <Click /> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <EventBinding /> */}
+      {/* <Synthetic /> */}
+      <Delegation />
     </>
   );
 }
