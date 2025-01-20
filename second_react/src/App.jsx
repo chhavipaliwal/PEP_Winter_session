@@ -8,6 +8,8 @@ import Product from "./proptype";
 import Counter from "./counter";
 import Apps from "./nestedprop";
 import StatusMessage from "./conditionalprop";
+import Click from "./handlingclick";
+import Form from "./formhandling";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,7 +24,9 @@ function App() {
       {/* <Product name="John" price={25} isAvailable={true} /> */}
       {/* <Counter count={count} onIncrement={() => setCount(count + 1)} /> */}
       {/* <Apps /> */}
-      <StatusMessage status={status} />
+      {/* <StatusMessage status={status} /> */}
+      {/* <Click /> */}
+      <Form />
     </>
   );
 }
