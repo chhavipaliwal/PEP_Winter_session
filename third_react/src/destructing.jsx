@@ -10,7 +10,7 @@ function Destructing() {
   };
   const { name, age, city } = person;
   return (
-    <div>
+    <div className="bg-gray-400 text-white text-center p-4">
       <h1>{name}</h1>
       <h1>{age}</h1>
       <h1>{city}</h1>
