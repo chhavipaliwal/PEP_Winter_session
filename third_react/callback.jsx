@@ -3,7 +3,7 @@
 //here is the code of callback function
 import React from "react";
 
-function Apps() {
+function Callback() {
   // Function that takes a name and a callback
   function greetUser(name, callback) {
     // Set greeting message
@@ -34,4 +34,4 @@ function Apps() {
   );
 }
 
-export default Apps;
+export default Callback;

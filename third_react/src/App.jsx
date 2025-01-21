@@ -1,15 +1,13 @@
-import { useState } from "react";
-import "./App.css";
 import Destructing from "./destructing";
-import Apps from "./callback";
+import Hooks from "../hooks";
+import Usestate from "./usestate";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       {/* <Destructing /> */}
-      <Apps />
+      {/* <Hooks /> */}
+      <Usestate />
     </>
   );
 }
