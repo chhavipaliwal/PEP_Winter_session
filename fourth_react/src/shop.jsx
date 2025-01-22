@@ -16,14 +16,12 @@ const ShoppingCart = () => {
                         : cartItem
                 );
             }
-
             return [...prevCart, { ...item, quantity: 1 }];
         });
 
         setTotalCount((prevCount) => prevCount + 1);
         setTotalPrice((prevPrice) => prevPrice + item.price);
     };
-
     const removeItemFromCart = (itemId) => {
         setCart((prevCart) => {
             const itemToRemove = prevCart.find((cartItem) => cartItem.id === itemId);
@@ -43,7 +41,6 @@ const ShoppingCart = () => {
         setTotalCount((prevCount) => prevCount - 1);
         setTotalPrice((prevPrice) => prevPrice - itemToRemove.price);
     };
-
     return (
         <div className='bg-gray-300 h-screen text-black font-medium'>
             <div className="text-center flex flex-col gap-4">
