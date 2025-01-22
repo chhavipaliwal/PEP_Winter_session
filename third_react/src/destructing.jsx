@@ -11,10 +11,10 @@ function Destructing() {
   const { name, age, city } = person;
   return (
     <div className="bg-gray-400 text-white text-center p-4">
-      <p>{name}</p>
-      <p>{age}</p>
-      <p>{city}</p>
-    </div>
+      <h1>{name}</h1>
+      <h1>{age}</h1>
+      <h1>{city}</h1>
+    </div >
   );
 }
 export default Destructing;
