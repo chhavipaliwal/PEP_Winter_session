@@ -1,15 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-import ConditionalGreeting from "./conditionalgreeting";
-import SignUpForm from "./signupform";
+import Counter from "./assessment";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      {/* <ConditionalGreeting /> */}
-      <SignUpForm />
+      <Counter />
     </>
   );
 }
