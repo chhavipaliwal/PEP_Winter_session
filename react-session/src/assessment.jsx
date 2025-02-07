@@ -2,7 +2,6 @@
 //above 0 to 10 keep going! text in green color using tailwind
 //make a counter where two buttons increment and decrement  where the counter is displayed the count should be displayed in the center of the screen
 import React, { useState } from "react";
-
 const Counter = () => {
   const [count, setCount] = useState(0);
   return (
