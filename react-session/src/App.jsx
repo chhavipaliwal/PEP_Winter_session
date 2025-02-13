@@ -1,13 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Counter from "./assessment";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
-  Switch,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Contact from "./pages/contact";
